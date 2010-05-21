@@ -2,12 +2,12 @@ Summary:	Microcode image for Intel Wireless WiFi Link 6000AGN Adapter
 Summary(pl.UTF-8):	Obraz mikrokodu dla układów bezprzewodowych Intel Wireless WiFi Link 6000AGN
 %define	_module	6000
 Name:		iwlwifi-%{_module}-ucode
-Version:	9.176.4.1
+Version:	9.193.4.1
 Release:	1
 License:	distributable
 Group:		Base/Kernel
 Source0:	http://www.intellinuxwireless.org/iwlwifi/downloads/%{name}-%{version}.tgz
-# Source0-md5:	d0489d67d88e681eb3070c57daccfd92
+# Source0-md5:	e6f369713f4e60c8035f8df8cf60c2f7
 URL:		http://www.intellinuxwireless.org/
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
